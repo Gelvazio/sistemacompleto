@@ -163,7 +163,7 @@ function gravaRegistroLogin() {
         usuativo: 1,
     };
 
-    callApi("POST", "users", body, function (data) {
+    callApi("POST", "usuarios", body, function (data) {
         // pega os dados de token retornados e seta na sessao do navegador
         sessionStorage.setItem("token_logado", data.usutoken);
 

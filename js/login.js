@@ -47,7 +47,7 @@ function redirecionaPagina(pagina) {
 
 function atualizaMenu() {
     var url_atual = window.location.href;
-    let baseUrl = "https://senac.vercel.app/";
+    let baseUrl = "https://sistemacompleto-teste.vercel.app/";
     if (url_atual.includes("http://127.0.0.1:5500/")) {
         baseUrl = "http://127.0.0.1:5500/";
     }
